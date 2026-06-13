@@ -1,22 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Redian\\Codingan\\VScode\\Random Project\\Ch-Chatbot\\Ch-Chatbot\\Ch-Chatbot.csproj": {}
+    "C:\\Redian\\Codingan\\VScode\\Projects\\Ch-Chatbot\\Ch-Chatbot\\Ch-Chatbot.csproj": {}
   },
   "projects": {
-    "C:\\Redian\\Codingan\\VScode\\Random Project\\Ch-Chatbot\\Ch-Chatbot\\Ch-Chatbot.csproj": {
+    "C:\\Redian\\Codingan\\VScode\\Projects\\Ch-Chatbot\\Ch-Chatbot\\Ch-Chatbot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Redian\\Codingan\\VScode\\Random Project\\Ch-Chatbot\\Ch-Chatbot\\Ch-Chatbot.csproj",
+        "projectUniqueName": "C:\\Redian\\Codingan\\VScode\\Projects\\Ch-Chatbot\\Ch-Chatbot\\Ch-Chatbot.csproj",
         "projectName": "Ch-Chatbot",
-        "projectPath": "C:\\Redian\\Codingan\\VScode\\Random Project\\Ch-Chatbot\\Ch-Chatbot\\Ch-Chatbot.csproj",
-        "packagesPath": "C:\\Users\\Redian\\.nuget\\packages\\",
-        "outputPath": "C:\\Redian\\Codingan\\VScode\\Random Project\\Ch-Chatbot\\Ch-Chatbot\\obj\\",
+        "projectPath": "C:\\Redian\\Codingan\\VScode\\Projects\\Ch-Chatbot\\Ch-Chatbot\\Ch-Chatbot.csproj",
+        "packagesPath": "C:\\Users\\Redian\\.nuget\\packages",
+        "outputPath": "C:\\Redian\\Codingan\\VScode\\Projects\\Ch-Chatbot\\Ch-Chatbot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+          "C:\\Redian\\Codingan\\VScode\\Projects\\Ch-Chatbot\\NuGet.Config",
           "C:\\Users\\Redian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -25,8 +26,7 @@
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Users\\Redian\\.nuget\\packages": {}
         },
         "frameworks": {
           "net9.0": {
