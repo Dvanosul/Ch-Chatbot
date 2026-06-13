@@ -2,15 +2,13 @@
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ── Services ─────────────────────────────────────────────────────────────────
+// ── Services ──────────────────────────────────────────────────────────────────
 builder.Services
     .AddApplicationServices()
     .AddInfrastructure(builder.Configuration);
 
 // ── App pipeline ──────────────────────────────────────────────────────────────
 var app = builder.Build();
-
-app.UseHttpsRedirection();
 
 // Health-check endpoint — useful for uptime monitoring and webhook validation.
 app.MapGet("/health", () => Results.Ok(new { status = "healthy", timestamp = DateTime.UtcNow }))
