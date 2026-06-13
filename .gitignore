@@ -1,2 +1,11 @@
+obj/
+bin/
+logs/*
+Debug/*
+.DS_Store
+.vs
+.vscode
+.idea
+NuGet.Config
 AGENTS.md
 appsettings.Development.json
